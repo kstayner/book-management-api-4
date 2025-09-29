@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JiteraWorkspaceConfig">
+    <option name="config">
+      <map>
+        <entry key="4995c910-df2b-4978-8b57-8d393b7ebb61">
+          <value>
+            <JiteraWorkspaceConfig>
+              <option name="project">
+                <JiteraProject>
+                  <option name="createdAt" value="2025-07-07T09:21:55Z" />
+                  <option name="id" value="95MtyYDGNiEgbhacpNM=--ZuYqWSvQAeRMEx5L--HnVd5fw5Io+5mbqrLNyulg==" />
+                  <option name="importBy" value="github" />
+                  <option name="managedBy" value="jitera_n" />
+                  <option name="name" value="bookmanagementapi_2" />
+                  <option name="projectImports">
+                    <list>
+                      <JiteraProjectImport>
+                        <option name="branchName" value="main" />
+                        <option name="id" value="880" />
+                        <option name="layer" value="backend" />
+                        <option name="ownerName" value="kstayner" />
+                        <option name="projectSourceId" value="1560" />
+                        <option name="repositoryName" value="book-management-api" />
+                      </JiteraProjectImport>
+                    </list>
+                  </option>
+                  <option name="projectSources">
+                    <list>
+                      <JiteraProjectSource>
+                        <option name="framework" value="express" />
+                        <option name="id" value="ExvbAgyWPukh92lYmjY=--zCql+xb27/xJ2Ue/--sPLbZ9j3SU3tz5nDBXPpvw==" />
+                        <option name="layer" value="backend" />
+                      </JiteraProjectSource>
+                    </list>
+                  </option>
+                  <option name="slug" value="bookmanagementapi_2-59a4acf3-3358-4189-807f-38a2ea790df6-71ab16" />
+                  <option name="timeZone" value="UTC" />
+                  <option name="updatedAt" value="2025-07-07T09:22:34Z" />
+                  <option name="uuid" value="e83ae828-8e4a-4fdd-a588-1876cd9b508d" />
+                </JiteraProject>
+              </option>
+              <option name="team">
+                <JiteraTeam>
+                  <option name="id" value="Mkn5kjATsOenqki15A==--/m5TOmgWhe0j43Kd--xwBM1zfv0uPNV3atpdMWNA==" />
+                  <option name="name" value="Klebson's Personal Team" />
+                  <option name="role" value="owner" />
+                  <option name="slug" value="klebson-s-personal-team" />
+                  <option name="type" value="personal" />
+                </JiteraTeam>
+              </option>
+            </JiteraWorkspaceConfig>
+          </value>
+        </entry>
+        <entry key="7ae9f6d6-2378-4a9b-bc22-8c4df67d66aa">
+          <value>
+            <JiteraWorkspaceConfig />
+          </value>
+        </entry>
+        <entry key="ad4d287b-a16e-4835-b445-3c0c9a341e86">
+          <value>
+            <JiteraWorkspaceConfig>
+              <option name="project">
+                <JiteraProject>
+                  <option name="createdAt" value="2025-07-18T08:57:29Z" />
+                  <option name="id" value="uN7VJrC7qMB/Eg17CKY=--e3ItDppIsLPJ0LA8--PuBZoIy4HSJBWFuESyEkzg==" />
+                  <option name="importBy" value="github" />
+                  <option name="managedBy" value="jitera_n" />
+                  <option name="name" value="book-mgt-api-20250718" />
+                  <option name="projectImports">
+                    <list>
+                      <JiteraProjectImport>
+                        <option name="branchName" value="main" />
+                        <option name="id" value="1204" />
+                        <option name="layer" value="backend" />
+                        <option name="ownerName" value="kstayner" />
+                        <option name="projectSourceId" value="3934" />
+                        <option name="repositoryName" value="book-management-api" />
+                      </JiteraProjectImport>
+                    </list>
+                  </option>
+                  <option name="projectSources">
+                    <list>
+                      <JiteraProjectSource>
+                        <option name="framework" value="express" />
+                        <option name="layer" value="backend" />
+                      </JiteraProjectSource>
+                    </list>
+                  </option>
+                  <option name="selectedAssistant" value="backend" />
+                  <option name="slug" value="book-mgt-api-20250718-409c2071-48da-44a2-a914-197fcd3875d2-f62e72" />
+                  <option name="timeZone" value="UTC" />
+                  <option name="updatedAt" value="2025-07-18T08:59:37Z" />
+                  <option name="uuid" value="4d9aa69f-5b56-4de2-a732-d4b66c9a3595" />
+                </JiteraProject>
+              </option>
+              <option name="team">
+                <JiteraTeam>
+                  <option name="id" value="ivXYFJa8XgTGmI9/--5CU3qVmX+2emWxBX--TyNJS1EZo2UPLJOWqFl5KQ==" />
+                  <option name="name" value="Klebson's Personal Team" />
+                  <option name="role" value="owner" />
+                  <option name="slug" value="klebson-s-personal-team" />
+                  <option name="type" value="personal" />
+                </JiteraTeam>
+              </option>
+            </JiteraWorkspaceConfig>
+          </value>
+        </entry>
+        <entry key="c148bafe-1784-43fa-ac30-3fffc127acc6">
+          <value>
+            <JiteraWorkspaceConfig />
+          </value>
+        </entry>
+        <entry key="c8784f66-11de-4bb6-832a-ae5df29a8d30">
+          <value>
+            <JiteraWorkspaceConfig>
+              <option name="project">
+                <JiteraProject>
+                  <option name="createdAt" value="2025-07-07T10:45:09Z" />
+                  <option name="id" value="q/eA4UszDUqkoJBH3DM=--erJz21z7PkiQzeZ7--Jxn4ZuNYo3P89CZxt4Rn6g==" />
+                  <option name="importBy" value="github" />
+                  <option name="managedBy" value="jitera_n" />
+                  <option name="name" value="dyn-doc-be-202507071145" />
+                  <option name="projectImports">
+                    <list>
+                      <JiteraProjectImport>
+                        <option name="branchName" value="main" />
+                        <option name="id" value="1106" />
+                        <option name="layer" value="backend" />
+                        <option name="ownerName" value="kstayner" />
+                        <option name="projectSourceId" value="2097" />
+                        <option name="repositoryName" value="book-management-api" />
+                      </JiteraProjectImport>
+                    </list>
+                  </option>
+                  <option name="projectSources">
+                    <list>
+                      <JiteraProjectSource>
+                        <option name="framework" value="express" />
+                        <option name="id" value="/9gBOevOpUF0yHVkmGU=--mzZcZRlE7pB3dYge--JmNt5ZVFwlXOCIiQcGnLig==" />
+                        <option name="layer" value="backend" />
+                      </JiteraProjectSource>
+                    </list>
+                  </option>
+                  <option name="slug" value="dyn-doc-be-202507071145-49c626e8-38f0-4a57-9047-3c2933b08677-da943c" />
+                  <option name="timeZone" value="UTC" />
+                  <option name="updatedAt" value="2025-07-07T10:47:01Z" />
+                  <option name="uuid" value="0f649b57-6ae2-4efe-baf4-e379defb2f20" />
+                </JiteraProject>
+              </option>
+              <option name="team">
+                <JiteraTeam>
+                  <option name="id" value="bSHQrnh/NLMVWEbzaA==--s0IQl/LP9ZO6mkKf--wCoy07fDMlS2ZRJ6tjOfCw==" />
+                  <option name="name" value="Klebson's Personal Team" />
+                  <option name="role" value="owner" />
+                  <option name="slug" value="klebson-s-personal-team-0be1e39d-6168-4ebb-8951-af081ca353a4" />
+                  <option name="type" value="personal" />
+                </JiteraTeam>
+              </option>
+            </JiteraWorkspaceConfig>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
