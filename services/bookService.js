@@ -1,7 +1,7 @@
 const Book = require('../models/Book');
 
 const validateBookData = (bookData) => {
-    if (bookData.publishedYear > new Date().getFullYear()) {
+    if (bookData.publishedYear !== undefined && bookData.publishedYear > new Date().getFullYear()) {
         throw new Error('Published year cannot be in the future.');
     }
 };
@@ -35,4 +35,12 @@ exports.deleteBook = async (bookId) => {
     const book = await Book.findByIdAndDelete(bookId);
     if (!book) throw new Error('Book not found');
     return { message: 'Book deleted successfully' };
+};
+
+// PATCH service - partial update
+exports.patchBook = async (bookId, updateData) => {
+    validateBookData(updateData);
+    const book = await Book.findByIdAndUpdate(bookId, updateData, { new: true, runValidators: true });
+    if (!book) throw new Error('Book not found');
+    return book;
 };
