@@ -8,5 +8,8 @@ router.get('/books', bookController.getAllBooks);
 router.get('/books/:id', bookController.getBookById);
 router.put('/books/:id', bookController.updateBook);
 router.delete('/books/:id', bookController.deleteBook);
+// PATCH endpoint for partial updates
+router.patch('/books/:id', bookController.patchBook);
+
 
 module.exports = router;
