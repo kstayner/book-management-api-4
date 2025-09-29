@@ -5,8 +5,6 @@ const validateBookData = (bookData) => {
         throw new Error('Published year cannot be in the future.');
     }
 };
-
-// comment 001
 // comment 002
 exports.createBook = async (bookData) => {
     validateBookData(bookData);
