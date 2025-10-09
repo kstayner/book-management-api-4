@@ -1,6 +1,7 @@
 // test-001
 // test-002
 // test-003
+// test-004
 const mongoose = require('mongoose');
 
 mongoose.connect('mongodb://localhost:27017/bookstore', {
