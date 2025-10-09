@@ -1,45 +1,6 @@
-const bookService = require('../services/bookService');
-
-// Controller to handle creation of a new book.
-// Expects book data in the request body, calls bookService.createBook,
-// and responds with the created book or an error.
-exports.createBook = async (req, res) => {
-    try {
-        const book = await bookService.createBook(req.body);
-        res.status(201).json(book);
-    } catch (error) {
-        res.status(400).json({ error: error.message });
-    }
-};
-
+// Controller to handle retrieval of all books.
+// Calls bookService.getAllBooks and responds with the list of all books in the database.
 exports.getAllBooks = async (req, res) => {
     const books = await bookService.getAllBooks();
     res.json(books);
-};
-
-exports.getBookById = async (req, res) => {
-    try {
-        const book = await bookService.getBookById(req.params.id);
-        res.json(book);
-    } catch (error) {
-        res.status(404).json({ error: error.message });
-    }
-};
-
-exports.updateBook = async (req, res) => {
-    try {
-        const book = await bookService.updateBook(req.params.id, req.body);
-        res.json(book);
-    } catch (error) {
-        res.status(400).json({ error: error.message });
-    }
-};
-
-exports.deleteBook = async (req, res) => {
-    try {
-        const message = await bookService.deleteBook(req.params.id);
-        res.json(message);
-    } catch (error) {
-        res.status(404).json({ error: error.message });
-    }
 };
