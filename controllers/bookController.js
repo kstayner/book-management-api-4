@@ -1,5 +1,8 @@
 const bookService = require('../services/bookService');
 
+// Controller to handle creation of a new book.
+// Expects book data in the request body, calls bookService.createBook,
+// and responds with the created book or an error.
 exports.createBook = async (req, res) => {
     try {
         const book = await bookService.createBook(req.body);
