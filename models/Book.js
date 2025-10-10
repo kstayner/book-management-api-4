@@ -1,3 +1,5 @@
+// This file defines the Mongoose schema and model for storing and managing book records in the database.
+
 const mongoose = require('../config/db');
 
 const bookSchema = new mongoose.Schema({
