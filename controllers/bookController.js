@@ -1,7 +1,5 @@
 const bookService = require('../services/bookService');
 
-// Creates a new book record based on the request body and returns the newly created book.
-// Responds with status 201 on success or status 400 on failure.
 exports.createBook = async (req, res) => {
     try {
         const book = await bookService.createBook(req.body);
